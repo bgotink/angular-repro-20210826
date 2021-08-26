@@ -1,0 +1,16 @@
+{
+  "name": "ng-repro",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^12.2.2",
+    "@angular/cli": "^12.2.2",
+    "@angular/compiler": "^12.2.2",
+    "@angular/compiler-cli": "^12.2.2",
+    "ng-packagr": "^12.2.1",
+    "tslib": "2.3.1",
+    "typescript": "4.3.5"
+  }
+}

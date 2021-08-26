@@ -1,0 +1,40 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "projects": {
+    "one": {
+      "root": "packages/one",
+      "sourceRoot": "packages/one/src",
+      "projectType": "library",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/one/ng-package.json",
+            "tsConfig": "packages/one/tsconfig.lib.json"
+          }
+        },
+        "build2": {
+          "builder": "@iapetos/angular:build"
+        }
+      }
+    },
+    "two": {
+      "root": "packages/two",
+      "sourceRoot": "packages/two/src",
+      "projectType": "library",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/two/ng-package.json",
+            "tsConfig": "packages/two/tsconfig.lib.json"
+          }
+        },
+        "build2": {
+          "builder": "@iapetos/angular:build"
+        }
+      }
+    }
+  }
+}

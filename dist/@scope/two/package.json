@@ -1,0 +1,15 @@
+{
+  "name": "@scope/two",
+  "version": "0.0.0",
+  "main": "./bundles/two.umd.js",
+  "peerDependencies": {
+    "@angular/core": "^12.2.3",
+    "@scope/one": "*"
+  },
+  "sideEffects": false,
+  "typings": "./two.d.ts",
+  "module": "./fesm2015/two.js",
+  "es2015": "./fesm2015/two.js",
+  "esm2015": "./es2015/two.js",
+  "fesm2015": "./fesm2015/two.js"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@scope/two",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "@angular/core": "^12.2.3",
+    "@scope/one": "*"
+  },
+  "devDependencies": {
+    "@angular/core": "12.2.3",
+    "@scope/one": "workspace:*",
+    "rxjs": "6.6.7",
+    "zone.js": "0.11.4"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@scope/one",
+  "version": "0.0.0",
+  "main": "bundles/scope-one.umd.js",
+  "peerDependencies": {
+    "@angular/core": "^12.2.3"
+  },
+  "module": "fesm2015/scope-one.js",
+  "es2015": "fesm2015/scope-one.js",
+  "esm2015": "esm2015/scope-one.js",
+  "fesm2015": "fesm2015/scope-one.js",
+  "typings": "scope-one.d.ts",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.2.0"
+  }
+}
